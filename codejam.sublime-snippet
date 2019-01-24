@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class $1 {
+
+    static PrintStream out;
+
+    static {
+        try {
+            out = new PrintStream(new File("$1.out"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    void resolve(Scanner sc) {
+        $2
+    }
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner sc = new Scanner(new File("$1.in"));
+        int T = sc.nextInt();
+        for (int caseIndex = 1; caseIndex <= T; caseIndex++) {
+            System.out.printf("Case #%d: ", caseIndex);
+            new $1().resolve(sc);
+            System.out.println();
+        }
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>codejam</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

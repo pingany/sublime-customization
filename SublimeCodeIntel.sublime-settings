@@ -1,0 +1,39 @@
+/*
+   SublimeCodeIntel default settings
+   All settings can be overridden in *.sublime-project file
+*/
+{
+    /*
+       Sets the mode in which SublimeCodeIntel runs:
+
+       true - Enabled (the default).
+       false - Disabled.
+    */
+    "codeintel": true,
+
+    /* path to codeintel database */
+    "codeintel_database_dir": "~/.codeintel",
+
+    /*
+       An array of language names which are enabled.
+    */
+    "codeintel_enabled_languages":
+    [
+       /*"JavaScript",*/ 
+       "SCSS", "Python", "HTML",
+       "Ruby", "Python3", "XML", "Sass", "HTML5", "Perl", "CSS",
+       "Twig", "Less", "Node.js", "TemplateToolkit", "PHP"
+    ],
+
+    /*
+       Maps syntax names to languages. This allows variations on a syntax
+       (for example "Python (Django)") to be used. The key is
+       the base filename of the .tmLanguage syntax files, and the value
+       is the syntax it maps to.
+    */
+    "codeintel_syntax_map":
+    {
+       "Python Django": "Python",
+       "JavaScript": "Node.js"
+    }
+}

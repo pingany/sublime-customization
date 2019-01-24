@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+public class $1 {
+
+    private static $1 sInstance = null;
+
+    private $1() {
+    }
+
+    public static $1 getInstance() {
+        if (sInstance == null) {
+            sInstance = new $1();
+        }
+        return sInstance;
+    }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>new-singleton</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

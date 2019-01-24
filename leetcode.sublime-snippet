@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os,re,sys,commands,glob,json,collections,random
+from random import randint
+from LeetCodeUtils import *
+
+def $1():
+    pass
+
+def sp(*a):
+    assert $1(*a[:-1]) == a[-1]
+    pass
+def test():
+    pass
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>leetcode</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+
+public class $1 extends BackableActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.$2);
+        ViewUtils.inject(this);
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>new-actvity</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

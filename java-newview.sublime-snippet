@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+
+public class $1 extends View {
+
+    public $1(Context context) {
+        super(context);
+        initialize(context, null, 0);
+    }
+
+    public $1(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        initialize(context, attrs, 0);
+    }
+
+    public $1(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+        initialize(context, attrs, defStyle);
+    }
+
+    private void initialize(Context context, AttributeSet attrs, int defStyle) {
+        $2
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>newview</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

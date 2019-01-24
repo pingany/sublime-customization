@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+
+import java.lang.ref.WeakReference;
+
+public class $1 {
+
+    private static WeakReference<$1> sInstanceRef = new WeakReference<$1>(null);
+
+    private $1() {
+    }
+
+    public static $1 getInstance() {
+        $1 instance = sInstanceRef.get();
+        if (instance == null) {
+            instance = new $1();
+            sInstanceRef = new WeakReference<$1>(instance);
+        }
+        return instance;
+    }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>new-weak-singleton</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

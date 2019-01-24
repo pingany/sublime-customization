@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+public $1(Context context, AttributeSet attrs) {
+    super(context, attrs);
+}
+
+@Override
+protected void onFinishInflate() {
+    super.onFinishInflate();
+}
+
+@Override
+protected void onAttachedToWindow() {
+    super.onAttachedToWindow();
+}
+
+@Override
+protected void onDetachedFromWindow() {
+    super.onDetachedFromWindow();
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>view.full</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java</scope>
+</snippet>

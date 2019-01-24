@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (${1:<# Condition #>}) {
+    ${2:/* Statements */}
+}
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.objc</scope>
+</snippet>

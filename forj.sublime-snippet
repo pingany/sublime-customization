@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+for (int j = $1; j < $2; j++) {
+    $3
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>forj</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.java, source.c, source.c++</scope>
+</snippet>

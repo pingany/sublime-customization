@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env python
+# coding: utf-8
+
+from __future__ import print_function, unicode_literals
+
+import os
+import re
+import sys
+import json
+
+
+def main(args):
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--debug', action='store_true')
+    options = parser.parse_args()
+    $1
+    pass
+
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>new-tools</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

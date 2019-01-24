@@ -1,0 +1,45 @@
+{
+	"EclipseJavaFormatter":
+	{
+		"config_file": "/opt2/home/pingany/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs",
+		"eclipse_command": "/home/pingany/Downloads/adt-bundle-linux-x86_64-20130917/eclipse/eclipse"
+	},
+	"auto_complete_selector": "",
+	"auto_indent": true,
+	"channels":
+	[
+		"http://cst.stu.126.net/u/json/cms/channel_v3.json"
+	],
+	"color_scheme": "Packages/User/Monokai (Flake8Lint).tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 17.0,
+	"ignored_packages":
+	[
+		"AutoImport",
+		"Jade Build",
+		"Nodejs",
+		"SSL",
+		"SublimeClang",
+		"SublimeCodeIntel",
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"line_numbers": true,
+	"new_window_settings":
+	{
+		"height": 1024,
+		"width": 1024
+	},
+	"smart_indent": false,
+	"sublimelinter_delay": 500,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
+}

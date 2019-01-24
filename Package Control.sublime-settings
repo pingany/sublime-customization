@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"http://cst.stu.126.net/u/json/cms/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"Package Control",
+		"Python Flake8 Lint",
+		"SublimeLinter-flake8"
+	]
+}
