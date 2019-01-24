@@ -46,4 +46,4 @@ class GitBlameCommand(sublime_plugin.TextCommand):
                 newview.set_syntax_file('Packages/Diff/Diff.tmLanguage')
         else:
             print("not found lines")
-        window.run_command("show_panel", {"panel": "console"})
+        # window.run_command("show_panel", {"panel": "console"})

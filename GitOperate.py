@@ -21,9 +21,12 @@ class GitOperateCommand(sublime_plugin.TextCommand):
         basename = os.path.basename(filename)
         cmd = "git %s -f %s " % (action, basename)
         print("run cmd: ", cmd)
-        status_ouput = subprocess.getstatusoutput(
+        status, output = subprocess.getstatusoutput(
             cmd)
-        print("run cmd status_ouput: ", status_ouput)
+        if status == 0:
+            print("run cmd succeed, output:", output)
+        else:
+            print("run cmd failed, status: ", status, ", output: ", output)
 
         if re.match(r'rm\b', action):
             print("remove file: ", basename)
