@@ -8,7 +8,8 @@
 	"auto_indent": true,
 	"channels":
 	[
-		"http://cst.stu.126.net/u/json/cms/channel_v3.json"
+		"http://cst.stu.126.net/u/json/cms/channel_v3.json",
+		"https://raw.githubusercontent.com/wilon/sublime/master/download/channel_v3.json"
 	],
 	"color_scheme": "Packages/User/Monokai (Flake8Lint).tmTheme",
 	"default_line_ending": "unix",
@@ -19,14 +20,10 @@
 		"no_round"
 	],
 	"font_size": 17.0,
+	"http_proxy": "127.0.0.1:8080",
+	"https_proxy": "127.0.0.1:8080",
 	"ignored_packages":
 	[
-		"AutoImport",
-		"Jade Build",
-		"Nodejs",
-		"SSL",
-		"SublimeClang",
-		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"indent_to_bracket": true,
